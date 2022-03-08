@@ -71,27 +71,6 @@ p {
   border-bottom-left-radius: 10px;
 }
 
-.link {
-  background: var(--receive-bg);
-  color: black;
-  align-self: flex-start;
-}
-
-.link:after {
-  left: -26px;
-  width: 46px;
-  background-color: var(--page-background);
-  border-bottom-right-radius: 10px;
-}
-
-.link:before {
-  left: -7px;
-  width: 46px;
-  background-color: var(--receive-bg);
-  border-bottom-right-radius: 16px 14px;
-}
-
-
 
 .receive {
   background: var(--receive-bg);
