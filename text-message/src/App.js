@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import './styles.css';
+import 'styles.css';
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
