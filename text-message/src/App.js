@@ -34,7 +34,6 @@ function App() {
         <p className="send reveal">Hey bear! What's up</p>
         <p className="receive reveal">Nothing much..</p>
         <p className="send reveal">Does this format look good?</p>
-        <p className="receive reveal">google.com</p>
         <p className="send reveal">Does this format look good?</p>
         <p className="receive reveal">Haven't added the animations but it shouldn't take much.</p>
         <p className="send reveal">Does this format look good?</p>
