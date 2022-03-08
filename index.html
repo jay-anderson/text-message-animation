@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+    </script>
+</head>
+<body>
+    <p class="send reveal">Hey bear! What's up</p>
+    <p class="receive reveal">Nothing much..</p>
+    <!--<p class="receive dots reveal"><span class="dot"></span><span class="dot"></span><span class="dot"></span></p>!-->
+    <p class="send reveal">Does this format look good?</p>
+    <p class="receive reveal">Haven't added the animations but it shouldn't take much.</p>
+    <p class="receive reveal">I think this code should be importable too.</p>
+    <p class="send reveal">Yeah it's pure CSS &amp; HTML</p>
+    <p class="receive reveal">Even better? You can make this as long as you want. Like a whole ass paragraph. Friends, Romans, countrymen, lend me you ears...</p>
+    <p class="send reveal">Hey bear! What's up</p>
+    <p class="receive reveal">Nothing much..</p>
+    <p class="send reveal">Does this format look good?</p>
+    <p class="link reveal">google.com</p>
+    <p class="send reveal">Does this format look good?</p>
+    <p class="receive reveal">Haven't added the animations but it shouldn't take much.</p>
+    <p class="send reveal">Does this format look good?</p>
+    <p class="receive reveal">I think this code should be importable too.</p>
+    <p class="send reveal">Yeah it's pure CSS &amp; HTML</p>
+</body>
+</html>
