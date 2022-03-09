@@ -22,6 +22,11 @@
 }
 
 
+.container {
+  height: 3000px;
+  padding-top: 100vh;
+}
+
 
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -98,6 +103,20 @@ p {
   background-color: var(--page-background);
   border-bottom-right-radius: 10px;
 }
+
+#img.receive {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#link.receive {
+  padding-top: 100px;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #0b93f6;
+}
+
 
 .dot {
   height: 8px;
